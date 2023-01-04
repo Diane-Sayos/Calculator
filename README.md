@@ -1,6 +1,6 @@
-#Calculator
+# Project: Calculator
 Basic Calculator Using React
-##View
-
-###Preview
+### Description:
+Basic Calculator built using React and Javacript.
+### Preview
 ![caption](video.gif)
