@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  margin: 2rem;
+  margin: 5rem;
 }
 
 .App-logo {
@@ -42,30 +42,72 @@
   border-radius: 10px;
   text-align: right;
 }
-.ac-btn { grid-area: ac; }
-.c-btn { grid-area: c; }
-.invert-btn { grid-area: invert-btn; }
-.divide-btn { grid-area: divide; }
-
-.seven-btn { grid-area: seven; }
-.eight-btn { grid-area: eight; }
-.nine-btn { grid-area: nine; }
-.multiply-btn { grid-area: multiply-btn; }
-
-.four-btn { grid-area: four; }
-.five-btn { grid-area: five; }
-.six-btn { grid-area: six; }
-.subtract-btn { grid-area: subtract-btn; }
-
-.one-btn { grid-area: one; }
-.two-btn { grid-area: two; }
-.three-btn { grid-area: three; }
-.add-btn { grid-area: add-btn; }
-
-.zero-btn { grid-area: zero-btn; }
-.dot-btn { grid-area: dot-btn; }
-.equal-btn { grid-area: equal; }
-
+.ac-btn {
+  grid-area: ac;
+  background-color: rgb(60, 131, 134);
+}
+.c-btn {
+  grid-area: c;
+  background-color: rgb(60, 131, 134);
+}
+.invert-btn {
+  grid-area: invert-btn;
+  background-color: rgb(60, 131, 134);
+}
+.divide-btn {
+  grid-area: divide;
+  background-color: rgb(60, 131, 134);
+}
+.seven-btn {
+  grid-area: seven;
+}
+.eight-btn {
+  grid-area: eight;
+}
+.nine-btn {
+  grid-area: nine;
+}
+.multiply-btn {
+  grid-area: multiply-btn;
+  background-color: rgb(60, 131, 134);
+}
+.four-btn {
+  grid-area: four;
+}
+.five-btn {
+  grid-area: five;
+}
+.six-btn {
+  grid-area: six;
+}
+.subtract-btn {
+  grid-area: subtract-btn;
+  background-color: rgb(60, 131, 134);
+}
+.one-btn {
+  grid-area: one;
+}
+.two-btn {
+  grid-area: two;
+}
+.three-btn {
+  grid-area: three;
+}
+.add-btn {
+  grid-area: add-btn;
+  background-color: rgb(60, 131, 134);
+}
+.zero-btn {
+  grid-area: zero-btn;
+}
+.dot-btn {
+  grid-area: dot-btn;
+  background-color: rgb(60, 131, 134);
+}
+.equal-btn {
+  grid-area: equal;
+  background-color: rgb(60, 131, 134);
+}
 
 .grid-container {
   display: grid;
@@ -81,12 +123,12 @@
   'one two three add-btn'
   'zero-btn zero-btn dot-btn equal';
   gap: 10px;
-  background-color: cadetblue;
-  border: 10px solid rgb(24, 51, 53);
+  background-color: rgb(143, 177, 179);
+  border: 10px solid rgb(27, 53, 55);
   border-radius: 10px;
   padding: 1rem;
 }
 button {
-  background-color: rgb(133, 195, 197);
+  background-color: rgb(115, 196, 199);
   border-radius: 10px;
 }

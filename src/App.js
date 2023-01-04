@@ -48,7 +48,14 @@ function App() {
     }
   }
 
-  const dotHandler = () => {}
+  const dotHandler = (e) => {
+    e.preventDefault();
+    const dot = e.target.innerHTML;
+    setCalc({
+      ...calc,
+      num: !calc.num.includes('.') ? calc.num + dot : calc.num
+    })
+  }
 
   const invertHandler = (e) => {
     e.preventDefault()
@@ -81,10 +88,9 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Simple Calculator</h1>
       <div className="grid-container">
         <input className="screen"
-        type='number'
+        type='string'
         value={calc.num ? calc.num : calc.result}
         read-only='true'
         />
