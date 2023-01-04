@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin: 2rem;
 }
 
 .App-logo {
@@ -36,6 +37,56 @@
     transform: rotate(360deg);
   }
 }
-.calculator-div {
-  justify-content: center;
+.screen {
+  grid-area: screen;
+  border-radius: 10px;
+  text-align: right;
+}
+.ac-btn { grid-area: ac; }
+.c-btn { grid-area: c; }
+.invert-btn { grid-area: invert-btn; }
+.divide-btn { grid-area: divide; }
+
+.seven-btn { grid-area: seven; }
+.eight-btn { grid-area: eight; }
+.nine-btn { grid-area: nine; }
+.multiply-btn { grid-area: multiply-btn; }
+
+.four-btn { grid-area: four; }
+.five-btn { grid-area: five; }
+.six-btn { grid-area: six; }
+.subtract-btn { grid-area: subtract-btn; }
+
+.one-btn { grid-area: one; }
+.two-btn { grid-area: two; }
+.three-btn { grid-area: three; }
+.add-btn { grid-area: add-btn; }
+
+.zero-btn { grid-area: zero-btn; }
+.dot-btn { grid-area: dot-btn; }
+.equal-btn { grid-area: equal; }
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'screen screen screen screen'
+  'screen screen screen screen'
+  'screen screen screen screen'
+  'screen screen screen screen'
+  'screen screen screen screen'
+  'ac c invert-btn divide'
+  'seven eight nine multiply-btn'
+  'four five six subtract-btn'
+  'one two three add-btn'
+  'zero-btn zero-btn dot-btn equal';
+  gap: 10px;
+  background-color: cadetblue;
+  border: 10px solid rgb(24, 51, 53);
+  border-radius: 10px;
+  padding: 1rem;
+}
+button {
+  background-color: rgb(133, 195, 197);
+  border-radius: 10px;
 }
